@@ -1,0 +1,31 @@
+.youtube-section {
+    padding: 20px;
+}
+
+.youtube-container {
+    text-align: center;
+    margin: auto;
+    max-width: 750px;
+}
+
+.youtube-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

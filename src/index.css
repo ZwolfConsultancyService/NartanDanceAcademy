@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bg-best-color {
+  background-color: white !important;
+}
+.newss {
+  padding-top: 5px;
+}
+.ptext {
+  font-size: 14px;
+}
+.logo-head {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* .fonts{
+  font-size: 2.1rem;
+} */
+/*Header*/
+
+.main-li:hover {
+  border-bottom: 3.5px solid #fff;
+  color: #ffa500 !important;
+  font-weight: 700;
+}
+
+.nav-main {
+  background: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  color: white !important; /* Default text color when transparent */
+}
+
+.nav-main.scrolled {
+  background-color: #202020;
+  color: white; /* Text color when background is black */
+}
+
+.nav-main .navbar-brand span {
+  transition: transform 0.3s, color 0.3s;
+  margin-left: -10px;
+  color: white !important; /* Inherit color from parent */
+}
+
+.nav-main .navbar-brand img {
+  transition: transform 0.3s, color 0.3s;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.navbar-toggler-custom {
+  border-color: transparent;
+}
+
+.navbar-toggler-custom .navbar-toggler-icon {
+  display: none;
+}
+
+.navbar-toggler-custom:focus,
+.navbar-toggler-custom:hover,
+.nav-main.scrolled .navbar-toggler-custom {
+  color: white;
+}
+.nav-main.scrolled,
+.nav-main.expanded {
+  background-color: #202020;
+  color: white;
+}
+
+.nav-items {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-items .nav-link {
+  color: white !important; /* Force white text color */
+  transition: color 0.3s;
+}
+
+.nav-items .nav-link:hover {
+  color: #ffa500 !important; /* Hover color */
+  border-bottom: 3.5px solid #fff; /* Optional: Add underline on hover */
+  font-weight: 700; /* Optional: Increase font weight on hover */
+}
+
+
+/* @media (max-width: 991px) {
+  .navbar-collapse.collapsing,
+  .navbar-collapse.show {
+      overflow: hidden;
+  }
+  .nav-main .navbar-brand span {
+      display: inline;
+      margin-left: 0;
+      font-size: 1.2rem;
+  }
+} */
+
+
+/*Footer*/
+
+.icon-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-hover:hover {
+  transform: translateY(-5px);
+}

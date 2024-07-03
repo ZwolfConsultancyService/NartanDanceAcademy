@@ -1,0 +1,50 @@
+.galleryContainer {
+    padding: 20px;
+}
+
+.imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    flex: 1 1 calc(25% - 20px); /* 4 cards per row with space around */
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1024px) {
+    .card {
+        flex: 1 1 calc(33.33% - 20px); /* 3 cards per row on tablet */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 20px); /* 2 cards per row on mobile */
+    }
+
+    .viewMoreButton {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .viewMoreButton {
+        display: none; /* Hide view more button on tablet and desktop */
+    }
+}

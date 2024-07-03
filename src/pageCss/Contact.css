@@ -1,0 +1,35 @@
+.contact-section {
+  background-color: #f9f9f9;
+  padding: 15px; 
+  max-width: 100%; 
+}
+
+.contact-section .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.contact-section .form-label {
+  font-weight: bold;
+}
+
+.contact-section input,
+.contact-section textarea {
+  border: 1px solid #ced4da;
+  padding: 8px; 
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.contact-container {
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+}
