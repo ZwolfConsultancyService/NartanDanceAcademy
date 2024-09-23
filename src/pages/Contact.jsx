@@ -21,15 +21,15 @@ const Contact = () => {
     e.preventDefault();
     console.log("Form submitted with:", { name, email, contact, message });
 
-    const serviceId = "service_sf8f4aa";
-    const templateId = "template_trtd6wu";
-    const publicKey = "jZFWOq8yf2Bj8Y_CL";
+    const serviceId = "service_fvtxkpg";
+    const templateId = "template_g1h964q";
+    const publicKey = "zpFdGqnm1qQ2wAeYy";
 
     const templateParams = {
       from_name: name,
       from_email: email,
       from_contact: contact,
-      to_name: "Zwolf Consultancy Services",
+      to_name: "Nartan Academy",
       message: message,
     };
 
@@ -50,7 +50,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container mt-5 contact-container" style={{ maxWidth: '450px' }}>
+    <div className="container mt-5 contact-container" style={{ maxWidth: '450px'}}>
       <div className="row justify-content-center">
         <div className="col-lg-12">
           <div className="contact-section p-3 rounded shadow">
@@ -97,7 +97,7 @@ const Contact = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   rows="3"
-                  required
+                  placeholder='Optional...'
                 />
               </div>
               <button type="submit" className="btn btn-primary w-100">Submit</button>

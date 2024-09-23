@@ -4,20 +4,21 @@
   display: flex; /* Use flexbox to center content vertically */
   justify-content: center;
   align-items: center;
+  
 }
 
 .content-container {
   width: 100%;
-  max-width: 1200px; /* Set a maximum width for better readability on larger screens */
+ 
   text-align: center; /* Center align all text */
   color: #ffffff; /* White text color */
-  margin-top: -20px;
+ 
 }
 
 
 h2 {
   font-family: "Arial", sans-serif; /* Use a custom font if desired */
-  font-size: 2rem;
+  font-size: 2.5rem !important;
 }
 
 .about-s {
@@ -37,9 +38,10 @@ h2 {
 }
 
 .logo-img {
-  width: 85%; /* Adjust logo size to fill column width */
+  width: 75%; /* Adjust logo size to fill column width */
   height: auto;
   border-radius: 10%;
+  margin-top: -5px;
 }
 
 .text-column {
@@ -48,6 +50,7 @@ h2 {
 
 .text-column p {
   font-size: 1.1rem;
+  margin-top: 10px;
   text-align: justify;
   color: #ffffff; /* White text color for readability */
 }
@@ -73,6 +76,9 @@ h2 {
     width: 100%;
     margin-top: 155px;
   }
+  .logo-column{
+    margin-top: -30px;
+  }
 }
 
 @media (max-width: 820px) {
@@ -86,35 +92,41 @@ h2 {
     font-size: 1.5rem; /* Adjust heading size for small screens */
   }
   .text-column p {
-    font-size: 1rem; /* Adjust paragraph text size for small screens */
+    font-size: 0.8rem !important; /* Adjust paragraph text size for small screens */
   }
+  .text-column {
+    max-height: 300px;
+  }
+
   .logo-img {
     width: 50%;
-    margin-top: 0px;
+    margin-top: 40px !important;
   }
 }
 
 @media (max-width: 480px) {
   .about-section {
-    padding: 20px; /* Adjust padding for very small screens */
+    padding: 20px ;  /* Adjust padding for very small screens */
+  padding-bottom: 20px;
   }
   .content-container {
     padding: 0 20px; /* Adjust side padding */
   }
   h2 {
-    font-size: 1.25rem; /* Adjust heading size for very small screens */
+    font-size: 1.5rem !important; /* Adjust heading size for very small screens */
   }
   .text-column {
-    max-height: 150px; /* Adjust this value as needed for very small screens */
+    max-height: 300px; /* Adjust this value as needed for very small screens */
     overflow-y: auto; /* Enable vertical scrolling */
+    margin-top: -40px;
   }
   .text-column p {
-    font-size: 0.9rem; /* Adjust paragraph text size for very small screens */
+    font-size: 0.9rem !important; /* Adjust paragraph text size for very small screens */
   }
   .logo-img {
     width: 70%;
-    padding-bottom: 6px;
-    margin-top: -30px;
+    padding-bottom: 75px !important;
+    margin-top: 50px !important;
   }
 }
 
@@ -129,14 +141,16 @@ h2 {
     font-size: 1rem; /* Adjust heading size for extra small screens */
   }
   .text-column {
-    max-height: 120px; /* Adjust this value as needed for extra small screens */
+    max-height: 250px; /* Adjust this value as needed for extra small screens */
     overflow-y: auto; /* Enable vertical scrolling */
   }
   .text-column p {
-    font-size: 0.7rem; /* Adjust paragraph text size for extra small screens */
+    font-size: 0.7rem !important; /* Adjust paragraph text size for extra small screens */
   }
   .logo-img {
     width: 84%;
-    padding-bottom: 12px;
+    padding-bottom: 6px;
+        margin-top: 39px;
+    
   }
 }

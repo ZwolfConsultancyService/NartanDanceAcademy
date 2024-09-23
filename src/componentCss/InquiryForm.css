@@ -42,7 +42,7 @@
 }
 
 .inquiry-form button[type="submit"] {
-  background: #007bff;
+  background: #212529;
   color: white;
   border: none;
   padding: 8px 15px;
@@ -51,7 +51,8 @@
 }
 
 .inquiry-form button[type="submit"]:hover {
-  background: #0056b3;
+  background:#000000 ;
+  color: #fff;
 }
 
 .close-button {

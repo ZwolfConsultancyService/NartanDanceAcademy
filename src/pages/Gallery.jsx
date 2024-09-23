@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import styles from '../pageCss/Gallery.module.css';
 
 const images = [
-    'images/zumba.jpg', 'images/herodance1.jpg', 'images/herodance4.jpg', 'images/herodance3.jpg',
-    'images/herodance5.jpg', 'images/herodance6.jpg', 'images/herodance7.jpg', 'images/herodance8.jpg',
-    'images/yoga2.jpg', 'images/yoga3.jpg', 'images/zumba.jpg', 'images/zumba2.jpg'
+    'images/pic1.jpeg', 'images/pic2.jpeg', 'images/pic3.jpeg', 'images/pic4.jpeg',
+    'images/pic5.jpeg', 'images/pic6.jpeg', 'images/pic8.jpeg', 'images/pic10.jpeg',
+    'images/pic11.jpeg', 'images/pic12.jpeg', 'images/pic13.jpeg', 'images/pic14.jpeg', '/images/pic15.jpeg', '/images/pic16.jpeg', '/images/pic17.jpeg', '/images/pic18.jpeg'
 ];
 
 const Gallery = () => {
@@ -41,7 +41,7 @@ const Gallery = () => {
             </div>
             {isMobile && visibleCards < images.length && (
                 <div className={`text-center mt-3 ${styles.viewMoreButton}`}>
-                    <button className="btn btn-primary" onClick={handleViewMore}>View More</button>
+                    <button className='viewMoreButton' onClick={handleViewMore}>View More</button>
                 </div>
             )}
         </section>

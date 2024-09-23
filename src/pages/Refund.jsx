@@ -72,7 +72,7 @@ Special Circumstances: Nartan Academy reserves the right to make exceptions to t
 <br/>
 <br/>
 
-If you have any questions about our refund policy, please contact us at <a href="">nartanacadmy08@gmail.com.</a></p>
+If you have any questions about our refund policy, please contact us at <a href="mailto:nartanacademy08@gmail.com"target='_blank'>nartanacademy08@gmail.com</a>.</p>
         </div>
       </div>
     </div>

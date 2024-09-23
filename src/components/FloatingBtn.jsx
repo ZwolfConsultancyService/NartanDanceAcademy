@@ -17,7 +17,7 @@ const Floatingbtn = () => {
       </div>
       <div id="pop-up" className={isOpen ? "visible" : "hidden"}>
         <a
-          href="tel:+916399778850"
+          href="tel:+919779144989"
           target="_blank"
           className="contact-icon"
           id="phone-icon"
@@ -33,7 +33,7 @@ const Floatingbtn = () => {
           <FaWhatsapp />
         </a>
         <a
-          href="mailto:nartanacadmy08@gmail.com"
+          href="mailto:nartanacademy08@gmail.com"
           className="contact-icon"
           id="email-icon"
         >

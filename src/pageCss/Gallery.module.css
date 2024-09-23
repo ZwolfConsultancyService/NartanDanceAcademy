@@ -1,26 +1,42 @@
 .galleryContainer {
-    padding: 20px;
+    padding: 40px;
 }
 
 .imageGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 5px; 
 }
 
 .card {
-    flex: 1 1 calc(25% - 20px); /* 4 cards per row with space around */
-    margin: 10px;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
     transition: transform 0.3s ease;
 }
+.viewMoreButton button {
+    background-color: #212529; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.viewMoreButton button:hover {
+    background-color: black; 
+    color: white; 
+}
+
 
 .card:hover img {
     transform: scale(1.1);
@@ -28,14 +44,14 @@
 
 /* Media queries for responsive design */
 @media (max-width: 1024px) {
-    .card {
-        flex: 1 1 calc(33.33% - 20px); /* 3 cards per row on tablet */
+    .imageGrid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on tablet */
     }
 }
 
 @media (max-width: 768px) {
-    .card {
-        flex: 1 1 calc(50% - 20px); /* 2 cards per row on mobile */
+    .imageGrid {
+        grid-template-columns: repeat(1, 1fr); /* Single column on mobile */
     }
 
     .viewMoreButton {

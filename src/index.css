@@ -1,3 +1,5 @@
+/* General Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,26 +23,21 @@ code {
 .bg-best-color {
   background-color: white !important;
 }
+
 .newss {
   padding-top: 5px;
 }
+
 .ptext {
   font-size: 14px;
 }
+
 .logo-head {
   font-size: 25px;
   font-weight: bold;
 }
-/* .fonts{
-  font-size: 2.1rem;
-} */
-/*Header*/
 
-.main-li:hover {
-  border-bottom: 3.5px solid #fff;
-  color: #ffa500 !important;
-  font-weight: 700;
-}
+/* Header */
 
 .nav-main {
   background: transparent;
@@ -83,6 +80,7 @@ code {
 .nav-main.scrolled .navbar-toggler-custom {
   color: white;
 }
+
 .nav-main.scrolled,
 .nav-main.expanded {
   background-color: #202020;
@@ -97,34 +95,102 @@ code {
 .nav-items .nav-link {
   color: white !important; /* Force white text color */
   transition: color 0.3s;
+  position: relative; /* Required for the pseudo-element */
+  padding-bottom: 5px; /* Adjust padding for spacing */
+}
+
+.nav-items .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3.5px;
+  background-color: white; /* Underline color */
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+
+.nav-items .nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .nav-items .nav-link:hover {
   color: #ffa500 !important; /* Hover color */
-  border-bottom: 3.5px solid #fff; /* Optional: Add underline on hover */
   font-weight: 700; /* Optional: Increase font weight on hover */
 }
 
+/* Media query for 320px width */
 
-/* @media (max-width: 991px) {
-  .navbar-collapse.collapsing,
-  .navbar-collapse.show {
-      overflow: hidden;
+@media (max-width: 320px) {
+  .navbar-brand span {
+    font-size: 16px; /* Reduce font size for smaller screens */
   }
-  .nav-main .navbar-brand span {
-      display: inline;
-      margin-left: 0;
-      font-size: 1.2rem;
+
+  .navbar-brand img {
+    width: 40px; /* Reduce logo size */
+    height: 40px; /* Reduce logo size */
   }
-} */
+
+  .navbar-toggler {
+    font-size: 20px; /* Adjust font size for better fit */
+  }
+
+  .navbar-toggler-custom {
+    font-size: 20px; /* Adjust font size for better fit */
+  }
+  
+  .nav-items {
+    font-size: 14px; /* Reduce font size for small screens */
+  }
+
+  .nav-items .nav-link {
+    padding-bottom: 5px; /* Adjust padding for better spacing */
+  }
+  
+  .navbar-collapse {
+    display: block; /* Ensure menu is properly displayed */
+    padding-top: 5px; /* Adjust top padding */
+  }
+  
+  .container-fluid.ms-3 {
+    padding-left: 5px; /* Adjust left padding */
+    padding-right: 5px; /* Adjust right padding */
+  }
+
+  .nav-main .navbar-brand span,
+  .nav-main .navbar-brand img,
+  .navbar-toggler {
+    margin-top: 0; /* Ensure all elements are aligned */
+    margin-bottom: 0;
+    line-height: 1; /* Ensure line height does not cause overflow */
+  }
+  
+  .navbar-toggler-custom {
+    font-size: 20px;
+    padding: 0; /* Remove extra padding */
+    width: auto; /* Adjust width to fit icon */
+  }
+
+  .navbar-toggler-custom svg {
+    width: 20px; /* Adjust icon width */
+    height: 20px; /* Adjust icon height */
+  }
+}
 
 
 /*Footer*/
 
-.icon-hover {
-  transition: transform 0.3s ease-in-out;
-}
+  .icon-hover {
+    transition: transform 0.3s ease-in-out;
+  }
 
-.icon-hover:hover {
-  transform: translateY(-5px);
-}
+  .icon-hover:hover {
+    transform: translateY(-5px);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }

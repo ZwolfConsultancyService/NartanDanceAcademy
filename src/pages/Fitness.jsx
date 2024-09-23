@@ -9,17 +9,17 @@ const fitness = [
     {
         images: '/images/yoga3.jpg',
         title: 'Yoga',
-        description: 'Yoga is a holistic discipline originating from ancient India, encompassing physical postures (asanas), breath control (pranayama), and meditation techniques. It promotes physical health, mental clarity, and spiritual growth through a combination of mindful movement, breathing exercises, and relaxation. Yoga is practiced worldwide for its numerous benefits, including stress reduction, improved flexibility, strength building, and overall well-being.'
+        description: 'Yoga is a holistic discipline originating from ancient India, encompassing physical postures (asanas), breath control (pranayama), and meditation techniques. It promotes physical health, mental clarity, and spiritual growth through a combination of mindful movement, breathing exercises, and relaxation. '
     },
     {
         images: '/images/zumba2.jpg',
         title: 'Zumba',
-        description: "Zumba is a fitness program that combines Latin and international music with dance moves. Created in the 1990s by Colombian dancer and choreographer Alberto 'Beto' Perez, Zumba incorporates dance styles such as salsa, merengue, cumbia, reggaeton, and more. It's designed to be fun and energetic, providing a full-body workout that includes cardiovascular exercise, muscle conditioning, flexibility, and balance improvement."
+        description: "Zumba is a fitness program that combines Latin and international music with dance moves. Created in the 1990s by Colombian dancer and choreographer Alberto 'Beto' Perez, Zumba incorporates dance styles such as salsa, merengue, cumbia, reggaeton, and more. "
     },
     {
         images: '/images/aerobics.jpg',
         title: 'Aerobics',
-        description: "Aerobics refers to a form of physical exercise that combines rhythmic aerobic movements with stretching and strength training routines. It focuses on increasing cardiovascular fitness, endurance, flexibility, and overall health. Aerobics classes typically involve choreographed movements set to music, which can vary in intensity from low-impact to high-impact depending on the instructor and participants' fitness levels. "
+        description: "Aerobics refers to a form of physical exercise that combines rhythmic aerobic movements with stretching and strength training routines. It focuses on increasing cardiovascular fitness, endurance, flexibility, and overall health.  "
     }
 ];
 

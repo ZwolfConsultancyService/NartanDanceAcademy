@@ -111,7 +111,7 @@ We may update this privacy policy from time to time. We encourage you to review 
 
 If you have questions or comments about this privacy policy, please contact us at:
 
-<a href="">nartanacademy08@gmail.com</a></p>
+<a href="mailto: nartanacademy08@gmail.com">nartanacademy08@gmail.com</a></p>
         </div>
       </div>
     </div>

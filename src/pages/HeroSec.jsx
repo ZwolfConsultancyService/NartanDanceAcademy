@@ -27,7 +27,7 @@ const HeroSec = () => {
       <ul className="slide">
         {crousalsImages.map((imageItem, index) => (
           <li key={index} className={`item ${index === currentIndex ? 'active' : ''}`}>
-            <img src={imageItem} alt={`crousalsImages ${index + 1}`} className="img-fluid" />
+            <img src={imageItem} alt={`crousalsImages ${index + 1}`} className="img-fluids" />
           </li>
         ))}
       </ul>

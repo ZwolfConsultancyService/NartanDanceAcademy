@@ -13,7 +13,7 @@ const TnC = () => {
         </div>
         <div className="row">
           <div className="col-12 col-md-8 offset-md-2">
-            <p>These Terms & Conditions ("Terms") govern your use of [Your Dance Academy Name] website at nartanacademy.in (the "Site"). By accessing or using the Site, you agree to be bound by these Terms and our Privacy Policy. If you do not agree with these Terms, please do not access or use the Site.
+            <p>These Terms & Conditions ("Terms") govern your use of Nartan Academy website at nartanacademy.in (the "Site"). By accessing or using the Site, you agree to be bound by these Terms and our Privacy Policy. If you do not agree with these Terms, please do not access or use the Site.
 <br/>
 <br/>
 <br/>
@@ -35,14 +35,14 @@ You are responsible for maintaining the confidentiality of your account and pass
 
 3. Payment and Fees
 
-All fees for classes, workshops, or other services offered by [Your Dance Academy Name] are non-refundable unless otherwise stated.
+All fees for classes, workshops, or other services offered by Nartan Academy are non-refundable unless otherwise stated.
 Payment for services must be made in full prior to attending any class or workshop.
 <br/>
 <br/>
 
 4. Intellectual Property
 
-The content on the Site, including but not limited to text, graphics, logos, images, audio clips, and video clips, is owned by or licensed to [Your Dance Academy Name], and is subject to copyright and other intellectual property rights under applicable laws.
+The content on the Site, including but not limited to text, graphics, logos, images, audio clips, and video clips, is owned by or licensed to Nartan Academy, and is subject to copyright and other intellectual property rights under applicable laws.
 <br/>
 <br/>
 
@@ -67,7 +67,7 @@ Nartan Academy reserves the right, at its sole discretion, to modify or replace 
 8. Contact Us
 
 If you have any questions about these Terms, please contact us at:
-<a href="">nartanacademy08@gmail.com</a></p>
+<a href="mailto: nartanacademy08@gmail.com ">nartanacademy08@gmail.com</a></p>
           </div>
         </div>
       </div>

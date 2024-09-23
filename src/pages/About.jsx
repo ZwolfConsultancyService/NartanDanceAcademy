@@ -3,19 +3,19 @@ import '../pageCss/About.css';
 
 const About = () => {
   return (
-    <div className="about-section mt-5 bg-light">
-      <div className="content-container mb-2">
+    <div className="about-section mt-5  bg-light">
+      <div className="content-container">
         <div className="logo-container  ">
           <h2 className="fw-bold text-dark fonts">
             About
             <span className="text-warning "> Nartan Academy </span>
           </h2>
           <div className="row about-s">
-            <div className="col-lg-4 col-md-12 pt-2 logo-column">
+            <div className="col-lg-4 col-md-12 ">
               <img src="/images/nartan.jpg" alt="Nartan Academy Logo" className="logo-img" />
             </div>
-            <div className="col-lg-8 col-md-12 text-column">
-              <p className="text-dark">
+            <div className="col-lg-8 col-md-12 text-column ">
+              <p className="text-dark ">
                 Welcome to Nartan Academy, where passion meets rhythm! Established with a commitment to nurturing talent and fostering creativity, Nartan Academy stands as a premier destination for dance education in our community.
 
                 At Nartan Academy, we believe that dance is more than just movement; it's an expression of emotions, a celebration of culture, and a pathway to self-discovery. Our academy offers a diverse range of dance styles including ballet, jazz, contemporary, hip-hop, and more, catering to dancers of all ages and skill levels.

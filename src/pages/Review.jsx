@@ -11,28 +11,28 @@ const Review = () => {
   const testimonials = [
     {
       name: "Ruchika",
-      text: "Very satisfied with the service provided.",
-      imgSrc: "/images/herodance1.jpg",
+      text: "The perfect place to learn dance at any age. The staff is professional, and the environment is fun and supportive.",
+      imgSrc: "/images/girl.jpeg",
     },
     {
-      name: "Aman",
-      text: "Very satisfied with the service provided.",
-      imgSrc: "/images/herodance1.jpg",
+      name: "Amandeep",
+      text: "Fantastic instructors and a welcoming atmosphere! My skills have improved so much since joining.",
+      imgSrc: "/images/men1.jpeg",
     },
     {
-      name: "Rahul",
-      text: "Very satisfied with the service provided.",
-      imgSrc: "/images/herodance1.jpg",
+      name: "Amaira",
+      text: "Great variety of classes and styles. The teachers are patient and really know how to bring out the best in you.",
+      imgSrc: "/images/girl.jpeg",
     },
     {
-      name: "Vikram",
-      text: "Very satisfied with the service provided.",
-      imgSrc: "/images/herodance1.jpg",
+      name: "Pramjeet",
+      text: "A top-notch dance academy! My child loves the classes and has gained so much confidence.",
+      imgSrc: "/images/men2.jpeg",
     },
     {
-      name: "Mohit",
-      text: "Very satisfied with the service provided.",
-      imgSrc: "/images/herodance1.jpg",
+      name: "Sukhleen",
+      text: "Amazing community and high-quality instruction. Whether you're a beginner or experienced.",
+      imgSrc: "/images/girl.jpeg",
     },
   ];
 
@@ -98,7 +98,7 @@ const Review = () => {
                         className="rounded-circle mb-3 testimonial-image"
                         alt={testimonial.name}
                       />
-                      <Card.Text className="text-center testimonial-text">
+                      <Card.Text className="text-center testimonial-text ">
                         {testimonial.text}
                       </Card.Text>
                       <Card.Title className="mt-3 testimonial-name">
